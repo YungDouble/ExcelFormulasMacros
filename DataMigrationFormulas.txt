@@ -1,0 +1,1 @@
+=LEFT(D2, FIND(".", D2, LEN(D2)-5)-1) & ".pdf"
