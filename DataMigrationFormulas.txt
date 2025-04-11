@@ -2,3 +2,5 @@
 
 
 Get-ChildItem -File | Select-Object -ExpandProperty Name | Out-File -Encoding utf8 filelist.txt
+
+=TRIM(RIGHT(SUBSTITUTE(M2,"\",REPT(" ",100)),100))
